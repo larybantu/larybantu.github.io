@@ -1,0 +1,94 @@
+@charset "utf-8";
+body { 
+	font-family: "Gill Sans MT";
+	background: #F0F0F0 url(../img/bg.gif);
+	}
+#wrapper
+{
+	/*	Do not modify		----------------------------*/
+	margin-right:			auto;
+	margin-left:			auto;
+	/*	Customize			----------------------------*/
+	width:					1024px;
+	padding: 5px;
+	margin-top: 5px;
+	font-family: "Gill Sans MT";
+}
+
+#contentmenu {
+	border: 1px solid #CCC;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	height: 300px;
+	font-family: "Gill Sans MT";
+	width: 500px;
+	margin: 5px 0px 0px 250px;
+	background-color: #EEE;
+}
+#contentmenu form input,
+form textarea  {
+	font-size: 1em;
+	margin-left: 30px;
+	color: #333;
+	border: 1px solid #ddd;
+	padding: 8px;
+	background-color: #CCC;
+	width: 100px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.btn {
+	font-size: 14px;
+	margin-left: 10px;
+	color: #333;
+	border: 2px solid #999;
+	padding: 4px;
+	background-color: #CCC;
+	width: 150px;
+	font-family: Tahoma, Geneva, sans-serif;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+}
+#inlineimg1 {
+	width: 160px;
+	margin: 0px 0px 0px 250px;
+}
+#heading12{
+	height: 40px;
+	background-color: #087D6A;
+	color: #FFF;
+	text-align: center;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 5px;
+	width: 503px;
+	margin: 30px 0px 0px 250px;
+	font-size: 20px;
+	}
+#inlinehead1 {
+	width: 375px;
+	height: 50px;
+	margin: -100px 0px 0px 390px;
+	font-size: 22px;
+	color: #FFF;
+}
+#red {
+	height: 20px;
+	background-color: #F80808;
+	width: 503px;
+	margin-left: 250px;
+}
+#footer1 {
+	font-family: "Gill Sans MT";
+	color: #090;
+	width: 800px;
+	margin: 50px 0px 0px 150px;
+}
+#footer1 a {
+	color: #696969;
+	text-decoration: none;
+}
+#wrapper #contentmenu form .btn {
+	background-color: #666;
+	color: #FFF;
+}

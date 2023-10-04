@@ -1,0 +1,68 @@
+body {
+	font-family: "Consolas" ;
+	font-size: 14px;
+	color: #000;
+	width: 690px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#heading{
+	padding-left: 20px;
+	}
+.displaytb{
+	padding-left: 20px;
+	}
+.displaytb .tablehead {
+	text-align: center;
+	font-size: 14px;
+	font-weight:bold;
+}
+.celltb {
+	border-bottom: 1px solid #000;
+}
+.center {
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+.right {
+	border-bottom: 1px solid #000;
+	text-align: right;
+}
+.left {
+	border-bottom: 1px solid #000;
+	text-align: left;
+}
+#view_container_right{
+	float:right;
+	}
+.rightalign{
+	text-align:right;
+	}
+.view_header{
+	text-align: center;
+	}
+.total {
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	
+}
+#lower{
+	font-size: 14px;
+	}
+.celltb2 {
+	border-right: 1px solid #000;
+	text-align: left;
+}
+.rightalign2
+{
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	text-align: right;
+}
+.total{
+	font-weight:bold;
+	}
+.paymt{
+	background-color: #E8E8E8;
+	}
