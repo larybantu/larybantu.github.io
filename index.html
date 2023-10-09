@@ -95,14 +95,14 @@ logged_in();
           <div id="red"></div>
           </div>
 		<?php
-		$curr_date = date("Y");
+		<!-- $curr_date = date("Y");
 		if($curr_date = 2013){
                 
-        ?>
+        ?> -->
         <div id="contentmenu"> 
         <h2>Staff Login</h2>
-                    <?php if (!empty($message)) {echo "<p class=\"message\">" . $message . "</p>";} ?>
-                    <?php if (!empty($errors)) { display_errors($errors); } ?>
+                    <!-- <?php if (!empty($message)) {echo "<p class=\"message\">" . $message . "</p>";} ?>
+                    <?php if (!empty($errors)) { display_errors($errors); } ?> -->
         <form action="index.php" method="post">
         <p>Username:
         <input type="text" name="username" maxlength="30" value="<?php echo htmlentities($username); ?>" />
