@@ -82,6 +82,7 @@ form textarea  {
 	font-family: "Gill Sans MT";
 	color: #090;
 	width: 800px;
+	text-align: center;
 	margin: 50px 0px 0px 150px;
 }
 #footer1 a {
